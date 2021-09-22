@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Mascotas } from './components/Mascotas';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Mascotas />
   </React.StrictMode>,
   document.getElementById('root')
 );
